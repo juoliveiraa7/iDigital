@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> IPD julia </title>
     <meta name="description" content="width=device-width">
     <!-- 'name' nome do conteudo, 'content' o proprio conteudo -->
-     <meta name="keywords" content="Julia Olieira, DEV, Desenvolvedor, Programação, html, css, música, viagens, Mcs.">
+    <meta name="keywords" content="Julia Olieira, DEV, Desenvolvedor, Programação, html, css, música, viagens, Mcs.">
 
     <!-- Favicon -->
-     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- foto para a title -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- foto para a title -->
 
     <!-- CSS Bootstrap -->
     <!-- AOS (Animate On Scroll) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -30,83 +31,85 @@
     <!-- Swiper -->
     <link href="https://cdn.jsdelivr.net/npm/swiper@10.0.0/swiper-bundle.min.css" rel="stylesheet">
 
- 
+
 
     <!-- CSS Style -->
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
     <!-- menu hamburger -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"> </i> <!-- os tres risquinhos ao lado -->
 
-        <!-- cabeçalho --> 
-         <header id="header">
-            <div class="d-flex flex-column">
-                <div class="perfil">
-                    <img src="img/fotoperfil.png" alt="" class="img-fluid rounded-circle">
-                    <h1 class="text-light"> 
-                        <a href="index.html#home">Júlia Oliveira</a>
-                    </h1>
+    <!-- cabeçalho -->
+    <header id="header">
+        <div class="d-flex flex-column">
+            <div class="perfil">
+                <img src="img/fotoperfil.png" alt="" class="img-fluid rounded-circle">
+                <h1 class="text-light">
+                    <a href="index.html#home">Júlia Oliveira</a>
+                </h1>
 
-                    <div class="social-links mt-3 text-center">
+                <div class="social-links mt-3 text-center">
 
-                        <a href="https://www.instagram.com/juu.oliveiraa7?igsh=MW13ZTQzdGJjbGNxZg%3D%3D&utm_source=qr" class="instagram" target="_blank">
-                            <i class="bx bxl-instagram"></i>
+                    <a href="https://www.instagram.com/juu.oliveiraa7?igsh=MW13ZTQzdGJjbGNxZg%3D%3D&utm_source=qr"
+                        class="instagram" target="_blank">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/juoliveiraa7" class="github" target="_blank">
+                        <i class="bx bxl-github"></i>
+                    </a>
+
+                </div>
+            </div> <!-- fim div perfil -->
+
+            <!-- menu -->
+            <nav id="navbar" class="nav-menu navbar">
+                <ul>
+                    <li>
+                        <a href="#hero" class="nav-link scrollto active">
+                            <i class="bx bx-home"></i>
+                            <span>Home</span>
                         </a>
-
-                        <a href="" target="_blank">
-                            <i class="bx bxl-linkedin"></i>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link scrollto active">
+                            <i class="bx bx-user"></i>
+                            <span>Sobre</span>
                         </a>
-
-                        <a href="https://github.com/juoliveiraa7" class="github" target="_blank">
-                            <i class="bx bxl-github"></i>
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav-link scrollto active">
+                            <i class="bx bx-file-blank"></i>
+                            <span>Resumo</span>
                         </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link scrollto active">
+                            <i class="bx bx-images"></i>
+                            <span>Portfolio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link scrollto active">
+                            <i class="bx bx-envelope"></i>
+                            <span>Contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav> <!-- fim nav -->
+        </div> <!-- Fim d-flex flex-column -->
 
-                    </div>
-                </div> <!-- fim div perfil -->
+    </header> <!-- Fim Cabeçalho -->
 
-                <!-- menu -->
-                 <nav id="navbar" class="nav-menu navbar">
-                    <ul>
-                        <li>
-                            <a href="#hero" class="nav-link scrollto active">
-                                <i class="bx bx-home"></i>
-                                <span>Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#about" class="nav-link scrollto active">
-                                <i class="bx bx-user"></i>
-                                <span>Sobre</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#resume" class="nav-link scrollto active">
-                                <i class="bx bx-file-blank"></i>
-                                <span>Resumo</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#portfolio" class="nav-link scrollto active">
-                                <i class="bx bx-images"></i>
-                                <span>Portfolio</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="nav-link scrollto active">
-                                <i class="bx bx-envelope"></i>
-                                <span>Contato</span>
-                            </a>
-                        </li>
-                    </ul>
-                 </nav> <!-- fim nav -->
-            </div> <!-- Fim d-flex flex-column -->
-
-         </header> <!-- Fim Cabeçalho -->
-
-         <!-- Perfil ou Hero -->
+    <!-- Perfil ou Hero -->
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
 
         <div class="hero-container" data-aos="fade-down">
@@ -129,82 +132,104 @@
                     <h2> Sobre Mim </h2>
 
                     <p>
-                        Me chamo Júlia, tenho 17 anos e moro em São Paulo, sou uma jovem que adora ouvir música, sempre com fones de ouvido prontos para tocar minhas playlists favoritas, que vão do pop às batidas do funk. Para mim, a música é uma forma de se conectar com suas emoções e criar momentos inesquecíveis.
-                        Nos fins de semana, gosto de sair com os amigos, conhecendo novos lugares e criando memórias. A praia é meu lugar favorito; nada me faz mais feliz do que sentir a brisa do mar e o calor do sol. Aproveito cada momento à beira-mar, seja praticando esportes, fazendo caminhadas ou apenas relaxando.
-                        Outra coisa que gosto é o futebol. Não perco um jogo do meu time do coração e adoro acompanhar as partidas, torcendo e vibrando a cada gol.
+                        Me chamo Júlia, tenho 17 anos e moro em São Paulo, sou uma jovem que adora ouvir música, sempre
+                        com fones de ouvido prontos para tocar minhas playlists favoritas, que vão do pop às batidas do
+                        funk. Para mim, a música é uma forma de se conectar com suas emoções e criar momentos
+                        inesquecíveis.
+                        Nos fins de semana, gosto de sair com os amigos, conhecendo novos lugares e criando memórias. A
+                        praia é meu lugar favorito; nada me faz mais feliz do que sentir a brisa do mar e o calor do
+                        sol. Aproveito cada momento à beira-mar, seja praticando esportes, fazendo caminhadas ou apenas
+                        relaxando.
+                        Outra coisa que gosto é o futebol. Não perco um jogo do meu time do coração e adoro acompanhar
+                        as partidas, torcendo e vibrando a cada gol.
 
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4"data-aos="fade-right">
+                    <div class="col-lg-4" data-aos="fade-right">
 
                         <img src="img/foto perfil.jpeg" class="img-fluid" alt="" width="600px" height="600px">
-                        
+
                     </div> <!-- fim col lg4 -->
+
                     <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                    
-                    <h3> Estudante &amp; Desenvolvedora </h3>
 
-                    <p class="fst-italic">
-Para mim, cada linha de código é uma nova possibilidade. Sempre que consigo fazer um projeto meu funcionar, sinto uma satisfação imensa e aprendendo cada vez mais.
-Como estudante, valorizo o ambiente colaborativo e as trocas de ideias com colegas e os professores, sempre buscando novas técnicas e conhecimentos de aprendizagem. 
 
-                    </p>
+                        <h3> Estudante &amp; Desenvolvedora </h3>
 
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul>
+                        <p class="fst-italic">
+                            Para mim, cada linha de código é uma nova possibilidade. Sempre que consigo fazer um projeto
+                            meu funcionar, sinto uma satisfação imensa e aprendendo cada vez mais.
+                            Como estudante, valorizo o ambiente colaborativo e as trocas de ideias com colegas e os
+                            professores, sempre buscando novas técnicas e conhecimentos de aprendizagem.
 
-                            <li class="bi bi-chevron-right"></i>
-                                <strong>Aniversário:</strong>
-                                <span>11 Mai 2007</span>
-                            </li>
+                        </p>
 
-                            <li class="bi bi-chevron-right"></i>
-                                <strong>Github:</strong>
-                                <span>https://github.com/juoliveiraa7</span>
-                            </li>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
 
-                            <li class="bi bi-chevron-right"></i>
-                                <strong>WhatsApp:</strong>
-                                <span>11 97870-2559</span>
-                            </li>
+                                    <li>
 
-                            <li class="bi bi-chevron-right"></i>
-                                <strong>Cidade:</strong>
-                                <span>São Paulo, SP</span>
-                            </li>
-                        </ul>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Aniversário:</strong>
+                                        <span>11 Mai 2007</span>
+                                    </li>
 
-                        </div> <!-- Fim col-lg-6-1 -->
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Github:</strong>
+                                        <span>https://github.com/juoliveiraa7</span>
+                                    </li>
 
-                        <div class="col-lg-6">
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>WhatsApp:</strong>
+                                        <span>11 97870-2559</span>
+                                    </li>
 
-                            <li class="bi bi-chevron-right"></i>
-                                <strong>Idade:</strong>
-                                <span>17 anos</span>
-                            </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Cidade:</strong>
+                                        <span>São Paulo, SP</span>
+                                    </li>
 
-                            <li class="bi bi-chevron-right"></i>
-                                <strong>Escolaridade:</strong>
-                                <span>2 Ano do Ensino Médio</span>
-                            </li>
+                                </ul>
 
-                            <li class="bi bi-chevron-right"></i>
-                                <strong>Email:</strong>
-                                <span>juliaoliver1105@gmail.com</span>
-                            </li>
+                            </div> <!-- Fim col-lg-6-1 -->
 
-                            <li class="bi bi-chevron-right"></i>
-                                <strong>Freelance:</strong>
-                                <span>Jovem Aprendiz Disponivel</span>
-                            </li>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Idade:</strong>
+                                        <span>17 anos</span>
+                                    </li>
+
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Escolaridade:</strong>
+                                        <span>2 Ano do Ensino Médio</span>
+                                    </li>
+
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Email:</strong>
+                                        <span>juliaoliver1105@gmail.com</span>
+                                    </li>
+
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Freelance:</strong>
+                                        <span>Jovem Aprendiz Disponivel</span>
+                                    </li>
+                                </ul>
+
+                            </div>
 
                         </div>
 
-                    </div>
-
-                </div> <!-- Fim Content -->
+                    </div> <!-- Fim Content -->
                 </div> <!-- fire row -->
 
             </div> <!-- fim container -->
@@ -213,22 +238,60 @@ Como estudante, valorizo o ambiente colaborativo e as trocas de ideias com coleg
         <!-- Feitos -->
         <section id="facts" class="facts">
             <div class="container">
-      
-              <div class="section-title">
-                <h2>Realizações</h2>
-              </div>
+
+                <div class="section-title">
+                    <h2>Realizações</h2>
+
+                    <p>
+                        Comecei um curso de tecnologia, o que tem sido uma grande realização pessoal e profissional. Aprender novas habilidades e me aprofundar nesse campo me motiva a buscar mais oportunidades. Recentemente, viajei para o Rio de Janeiro, onde tive a chance de conhecer o Maracanã, um sonho de longa data. A emoção de estar nesse estádio icônico e sentir a energia do lugar foi inesquecível. Essas experiências ampliaram meus horizontes.
+                    </p>
+                </div>
+
+                <div class="row no-gutters">
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"></div>
+
+                    <div class="count-box">
+
+                        <i class="bi bi-emoji-smile"></i>
+
+                        <span data-purecounter-start="0" data-purecounter-end="320" data-purecounter-duration="1" class="purecounter"></span>
+
+                        <p>
+                            <strong>Cursos</strong>
+                            Realizados
+                        </p>
+
+                    </div> <!-- Item 1 -->
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"></div>
+
+                <div class="count-box">
+
+                </div> <!--Item 2-->
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"></div>
+
+                <div class="count-box">
+
+                </div> <!-- Item 3 -->
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"></div>
+
+                <div class="count-box">
+
+                </div> <!-- Item 4 -->
+
+
+                </div>
             </div>
         </section>
-
-        <section id="facts" class="facts">
-            <div class="container">
-      
-              <div class="section-title">
-                <h2>Qualidades</h2>
-              </div>
-            </div>
-        </section>
-
 
 
 
@@ -239,7 +302,7 @@ Como estudante, valorizo o ambiente colaborativo e as trocas de ideias com coleg
 
     <!-- JS Bootstrap -->
     <!-- PureCounter -->
-    <script src="https://cdn.jsdelivr.net/npm/purecounterjs@1.1.0/dist/purecounter_vanilla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
 
     <!-- AOS (Animate On Scroll) -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
@@ -263,10 +326,11 @@ Como estudante, valorizo o ambiente colaborativo e as trocas de ideias com coleg
     <script src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/jquery.waypoints.min.js"></script>
 
     <!-- JS Script base -->
-     <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 
 
-    
+
 </body>
+
 </html>

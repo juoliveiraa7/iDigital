@@ -291,4 +291,29 @@ section {
     align-items: center;
 }
 
+.about .content ul strong {
+    margin-right: 10px;
+    color: #010630;
+    font-weight: 200;
+}
+
+.about .content ul span {
+    color: #000000;
+    font-family: "poppins";
+}
+
+.about .content p {
+    color: #000000;
+    font-family: "poppins";
+    font-weight: 600;
+    /* font-size: ; opcional */
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #000000;
+    line-height: 0;
+}
+
 
